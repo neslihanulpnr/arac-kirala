@@ -17,4 +17,5 @@ form.addEventListener("submit", function (e) {
 
     form.reset();
 
+    console.log("seçimler localstorage'a eklendi")
 });

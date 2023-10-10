@@ -117,7 +117,8 @@ p {
 select {
     border: none;
     margin-left: 5px;
-    padding: 5px;    appearance: none;
+    padding: 5px;
+    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     background-image: none;
@@ -132,22 +133,23 @@ input {
     margin-left: 5px;
 }
 
-/*.button {
-    margin-top: -70px;
-   margin-left: 380px;
-   position: relative;
-   z-index: 1;
-}*/
+.button {
+    width: 100px;
+    margin-top: -40px;
+    /*margin-left: 380px;*/
+    position: relative;
+    z-index: 1;
+}
 
-.btn{
+.btn {
     margin-left: 900px;
     width: 150px;
     height: 50px;
-    background-color:#000b3d;
+    background-color: #000b3d;
     color: white;
     border-radius: 3px;
 }
 
-i{
+i {
     margin-right: 8px;
 }
