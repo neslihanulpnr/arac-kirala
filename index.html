@@ -30,11 +30,11 @@
             class="mainSearch -col-5 -w-1070 mx-auto bg-white pr-20 py-20 lg:px-20 lg:pt-5 lg:pb-20 rounded-4 shadow-1">
         </div>
 
-        <div class="all">
+        <form class="all">
             <div class="sec">
                 <div id="alma-birakma">
-                    <h6>Alma Yeri</h6>
-                     <select name="dil">
+                    <h6 id="alma">Alma Yeri</h6>
+                     <select name="alma-yeri">
                      <option value="Ankara-Yenimahalle">Ankara-Yenimahalle</option>
                      <option value="Ankara-Çankaya">Ankara-Çankaya</option>
                      <option value="İstanbul-Şişli">İstanbul-Şişli</option>
@@ -42,8 +42,8 @@
                 </div>
 
                 <div id="alma-birakma">
-                    <h6>Bırakma Yeri</h6>
-                    <select name="dil">
+                    <h6 id="birakma">Bırakma Yeri</h6>
+                    <select name="birakma-yeri">
                         <option value="Ankara-Yenimahalle">Ankara-Yenimahalle</option>
                         <option value="Ankara-Çankaya">Ankara-Çankaya</option>
                         <option value="İstanbul-Şişli">İstanbul-Şişli</option>
@@ -55,11 +55,11 @@
                     <input type="datetime-local" class="tarih">
                     <input type="datetime-local" class="tarih">
                 </div>
-                <!--<div class="button">
-                    <button class="btn"><i class="fa-solid fa-magnifying-glass"></i>Hemen Bul!</button>
-                </div>-->
             </div>
-        </div>
+            <div class="button">
+                <button class="btn"><i class="fa-solid fa-magnifying-glass"></i>Hemen Bul!</button>
+            </div>
+        </form>
         <img src="car.jpeg" class="car">
     </div>
     <script src="app.js"></script>
